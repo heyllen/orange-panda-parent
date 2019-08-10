@@ -12,7 +12,7 @@
     <!--git 远程仓库配置-->
     <scm>
         <connection>scm:git:git@github.com:heyllen/orange-panda-parent.git</connection>
-        <url>git@github.com:heyllen/11orange-panda-parent</url>
+        <url>1111git@github.com:heyllen/orange-panda-parent</url>
         <developerConnection>scm:git:git@github.com:heyllen/orange-panda-parent.git</developerConnection>
     </scm>
 
