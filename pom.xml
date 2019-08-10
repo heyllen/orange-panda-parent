@@ -34,7 +34,7 @@
                 <configuration>
                     <username>heyllen</username>
         　　	<password>Lin123456</password>
-                         <connectionUrl>git@github.com:heyllen/orange-panda-parent.git</connectionUrl>
+                         <connectionUrl>orange-panda-parent.git</connectionUrl>
                   <tagNameFormat>v@{project.version}</tagNameFormat>
                   <autoVersionSubmodules>true</autoVersionSubmodules>
                  </configuration>
