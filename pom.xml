@@ -33,9 +33,7 @@
             <artifactId>maven-release-plugin</artifactId>
             <version>2.5.3</version>
             <configuration>
-                <!--git用户名-->
-                <username>heyllen</username>
-                <password>Lin123456</password>
+
             </configuration>
             </plugin>
 
