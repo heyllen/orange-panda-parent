@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.orange.panda</groupId>
     <artifactId>orange-panda-parent</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!--git 远程仓库配置-->
@@ -12,8 +14,7 @@
         <connection>scm:git:git@github.com:heyllen/orange-panda-parent.git</connection>
         <url>git@github.com:heyllen/orange-panda-parent</url>
         <developerConnection>scm:git:git@github.com:heyllen/orange-panda-parent.git</developerConnection>
-      <tag>v1.0</tag>
-  </scm>
+    </scm>
 
     <!--构建配置-->
     <build>
@@ -35,8 +36,8 @@
                 <!--git用户名-->
                 <username>heyllen</username>
                 <password>Lin123456</password>
-                <tagNameFormat>v@{project.version}</tagNameFormat>
-                <autoVersionSubmodules>true</autoVersionSubmodules>
+                <!--mvn目标指令-->
+                <goals>-f pom.xml deploy</goals>
             </configuration>
             </plugin>
 
