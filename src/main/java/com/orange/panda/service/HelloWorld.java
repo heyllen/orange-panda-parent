@@ -9,7 +9,7 @@ public class HelloWorld {
         System.out.print(11111111);
         int i = 100;
         for (i = 0; i < 10; i++) {
-            234234
+
         }
     }
 
