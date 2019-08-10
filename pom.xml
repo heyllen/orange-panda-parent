@@ -34,7 +34,7 @@
             <version>2.5.3</version>
             <configuration>
                 <!--git用户名-->
-                <username>393286997@qq.com</username>
+                <username>heyllen</username>
                 <password>Lin123456</password>
             </configuration>
             </plugin>
