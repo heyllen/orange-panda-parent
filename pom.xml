@@ -34,7 +34,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                  <username>393286997@qq.com</username>
+                  <username>heyllen</username>
                   <password>Lin123456</password>
                   <tagNameFormat>v@{project.version}</tagNameFormat>
                   <autoVersionSubmodules>true</autoVersionSubmodules>
