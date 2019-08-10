@@ -13,7 +13,7 @@
     <scm>
         <connection>scm:git:git@github.com:heyllen/orange-panda-parent.git</connection>
         <url>git@github.com:heyllen/orange-panda-parent.git</url>
-        <developerConnection>scm:git@github.com:heyllen/orange-panda-parent.git</developerConnection>
+        <developerConnection>scm:git:ssh:git@github.com:heyllen/orange-panda-parent.git</developerConnection>
     </scm>
 
     <!--构建配置-->
