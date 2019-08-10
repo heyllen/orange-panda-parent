@@ -11,8 +11,9 @@
 
     <!--git 远程仓库配置-->
     <scm>
-        <developerConnection>scm:git:git://github.com/orange-panda-parent.git</developerConnection>
-
+        <url>github.com:heyllen/orange-panda-parent.git</url>
+        <connection>scm:git:git@github.com:heyllen/orange-panda-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:heyllen/orange-panda-parent.git</developerConnection>
     </scm>
 
     <!--构建配置-->
@@ -33,7 +34,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <username></username>
+                    <username>heyllen</username>
                     <password>Lin123456</password>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
