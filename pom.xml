@@ -9,13 +9,13 @@
 
     <!--git 远程仓库配置-->
     <scm>
-        <connection>scm:git:https://github.com/heyllen/orange-panda-parent.git</connection>
-        <developerConnection>scm:git:https://github.com/heyllen/orange-panda-parent.git</developerConnection>
-        <url>https://github.com/heyllen/orange-panda-parent</url>
+        <!--<connection>scm:git:https://github.com/heyllen/orange-panda-parent.git</connection>-->
+        <!--<developerConnection>scm:git:https://github.com/heyllen/orange-panda-parent.git</developerConnection>-->
+        <!--<url>https://github.com/heyllen/orange-panda-parent</url>-->
 
-        <!--<url>github.com:heyllen/orange-panda-parent.git</url>-->
-        <!--<connection>scm:git:git@github.com/heyllen/orange-panda-parent.git</connection>-->
-        <!--<developerConnection>scm:git:git@github.com/heyllen/orange-panda-parent.git</developerConnection>-->
+        <url>github.com:heyllen/orange-panda-parent.git</url>
+        <connection>scm:git:git@github.com/heyllen/orange-panda-parent.git</connection>
+        <developerConnection>scm:git:git@github.com/heyllen/orange-panda-parent.git</developerConnection>
       <tag>v1.0</tag>
   </scm>
 
@@ -43,30 +43,17 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                  </configuration>
 
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.scm</groupId>
-                        <artifactId>maven-scm-provider-jgit</artifactId>
-                        <version>1.9.5</version>
-                    </dependency>
-                </dependencies>
+                <!--<dependencies>-->
+                    <!--<dependency>-->
+                        <!--<groupId>org.apache.maven.scm</groupId>-->
+                        <!--<artifactId>maven-scm-provider-jgit</artifactId>-->
+                        <!--<version>1.9.5</version>-->
+                    <!--</dependency>-->
+                <!--</dependencies>-->
             </plugin>
-
-
-
         </plugins>
-
-
-
     </build>
-    <distributionManagement>
-        <repository>
-            <id>Core-API-Java-Release</id>
-            <name>Release repository</name>
-            <url>http://localhost:8081/nexus/content/repositories/
-                Core-Api-Release</url>
-        </repository>
-    </distributionManagement>
+
 
 
 </project>
