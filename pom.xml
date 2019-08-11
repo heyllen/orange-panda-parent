@@ -55,12 +55,19 @@
 
 
 
-
         </plugins>
 
 
-    </build>
 
+    </build>
+    <distributionManagement>
+        <repository>
+            <id>Core-API-Java-Release</id>
+            <name>Release repository</name>
+            <url>http://localhost:8081/nexus/content/repositories/
+                Core-Api-Release</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>
